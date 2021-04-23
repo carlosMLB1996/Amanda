@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+html, body {
+    padding: 0px;
+    margin: 0px;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    /*background: linear-gradient(to bottom, #2a5f61, #EAECC6);*/
+    height: 100vh;
+}
+
+nav{
+    display: flex;
+    background-color: #2a5f61;
+    padding: 10px;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 1.5px 10px #304352;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav li{
+    list-style: none;
+}
+
+nav li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+nav li a:hover{
+    color: gray;
+}
+
+/*#a, #b{
+    margin-left: 330px;
+    margin-right: 330px;
+}*/
+
+.brand-image img {
+    height: 80px;
+    width: 275px;
+    padding-left: 5px;
+}
+
+.main-section h1{
+    text-align: center;
+    margin-top: 50px; /*Mueve la H1 de "CATALOGO DE PRODUCTOS CON EL ESPACIO DEL NAV*/
+}
+/************************************************** VER MÁS DE LA PRIMERA CATEGORIA*************************************/
+.ver-mas{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;/*Mueve el espacio entre el nombre de la categría y el "VER MAS" con el H1 de la página*/
+    margin-left: 385px;
+    margin-right: 385px;
+}
+
+.ver-mas .categoria{
+    font-size: 20px;
+}
+
+.ver-mas p{
+    margin-left: 515px;
+    margin-right: 515px;
+    display: inline;
+}
+
+.divisor{
+    margin-top: 50px; /* Separa la línea divisora de categoría con las tarjetas de productos de la cateforía anterior o superior*/
+    margin-left: 300px;
+    margin-right: 300px;
+    border-top: 1px solid #e1e5e8;
+    
+}
+
+
+/************************************************** FINAL VER MÁS DE LA SEGUNDA CATEGORIA*************************************/
+
+.izq, .dr {
+    display: flex;
+}
+
+.catalogo{
+    /*background-image: url("");*/
+    /*height: 80px; decirle a Andres que lo quite*/ 
+    /*background-color: gainsboro;*/
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center top;
+    /*height: 480px;*/
+    /*margin-top: -5%;*/
+    /*padding-top: 5%; Mueve el espacio entre las tarjetas de los productos con el NAV*/
+}
+
+.imagen-producto{
+    height: 200px;
+    width: 270px;
+    margin: auto;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 0px;
+}
+
+.producto{
+    padding: 10px;
+}
+
+/*.ver-mas{ 
+ text-align: right;
+ padding-right: 385px;
+ margin-bottom: 10px; /*Mueve el espacio de abajo entre "ver mas" y la tarjeta del producto
+}*/
+
+
+.producto .contenido{
+    background-color: white;
+    /*padding: 15px; Margen entre la imagen y el borde de la tarjeta*/
+    box-shadow: 0 0 1px #c1bcbc;
+    /*border: 1px solid wheat;*/
+    border: none;
+    border-radius: 8px;
+    box-shadow: 5px 2px 20px #c1bcbc;
+}
+
+.descripcion p{
+    text-align: justify;
+    max-width: 250px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.main-button {
+    background-image: linear-gradient(to right, #25D366 51%,#8fd3f4 100%);
+    border: none;
+    background-size: 200% auto;
+    box-shadow: 0px 0px 20px #eee;
+    transition: 0.5s;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 13px ;
+    cursor: pointer;
+    outline: none;
+}
+
+.main-button a{
+    color: white;
+    text-decoration: none;
+}
+
+.main-button:hover {
+    background-position: right center;
+    transform: scale(1.1);
+}
+
+.pie-producto{
+    display: flex;
+    justify-content: center;
+}
+
+.precio{
+    padding-bottom: 5px;
+}
+
+.mensajeria img{
+    margin-top: -6px;
+    padding-left: 15px;
+    height: 45px;
+}
+
+.mensajeria img:hover{
+    transform: scale(1.1);
+    transition: all 1s ease;
+}
