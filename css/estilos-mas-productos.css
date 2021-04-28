@@ -53,6 +53,8 @@ nav li a:hover{
 }
 
 .main-section h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
     text-align: center;
     margin-top: 50px; /*Mueve la H1 de "CATALOGO DE PRODUCTOS CON EL ESPACIO DEL NAV*/
 }
@@ -65,21 +67,16 @@ nav li a:hover{
     margin-right: 385px;
 }
 
+
 .ver-mas .categoria{
     font-size: 20px;
 }
 
-.ver-mas p{
-    font-size: 15px;
-    font-weight: bolder;
-    color: black;
-    margin-left: 515px;
-    margin-right: 515px;
-    display: inline;
+.ver-mas p {
+    font-size: 50px;
 }
 
-.ver-mas a{
-    font-size: 14px;
+.ver-mas a {
     text-decoration: none;
 }
 
@@ -90,6 +87,14 @@ nav li a:hover{
 
 .ver-mas-der a {
     color: black    ;
+}
+
+.ver-mas p{
+    font-weight: bolder;
+    color: black;
+    margin-left: 515px;
+    margin-right: 515px;
+    display: inline;
 }
 
 .divisor{
@@ -133,6 +138,7 @@ nav li a:hover{
 
 .producto{
     padding: 10px;
+    margin-bottom: 30px;
 }
 
 /*.ver-mas{ 
@@ -202,31 +208,6 @@ nav li a:hover{
     transition: all 1s ease;
 }
 
-#a-producto{
-    margin-bottom: 50px;
+#a {
+    margin-bottom: 0px;
 }
-
-/*************************************Menu**********************/
-/*nav{
-    display: flex;
-    background-color: #2a5f61;
-    padding: 10px;
-    color: white;
-    justify-content: space-between;
-    align-items: center;
-    box-shadow: 0px 1.5px 10px #304352;
-}
-
-nav ul{
-    display: flex;
-}
-
-nav li{
-    list-style: none;
-}
-
-nav li a{
-    text-decoration: none;
-    color: white;
-    padding: 10px;
-}*/
