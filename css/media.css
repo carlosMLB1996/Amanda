@@ -7,8 +7,8 @@
     }
 
     .ver-mas p{
-        margin-left: 240px;
-        margin-right: 240px;
+        margin-left: 230px;
+        margin-right: 230px;
     }
 
     .ver-mas p{
@@ -46,11 +46,12 @@
     }
 
     .ver-mas-izq {
-        padding-right: 20px;
+        padding-right: 15px;
     }
 
-    .ver-mas-der  {
-        padding-right: 45px;
+    .ver-mas-der a{
+        padding-right: 50px;
+        display: inline-block;
     }
 
     #a-producto{
@@ -248,5 +249,21 @@
 
     .nav-izq li a{
         padding-right: 58px;
+    }
+}
+
+
+/***********************************MEDIA QUERY FOOTER*********************/
+@media screen and (max-width: 405px){
+    footer ul{
+        padding-left: 0;
+    }
+
+    footer .informacion{
+        padding-left: 30px;
+    }
+
+    footer .iconos{
+        padding-left: 0;
     }
 }
