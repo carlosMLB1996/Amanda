@@ -49,6 +49,7 @@ nav li a:hover{
 }
 
 .main-section h1{
+    font-size: 50px;
     text-align: center;
     margin-top: 50px; /*Mueve la H1 de "CATALOGO DE PRODUCTOS CON EL ESPACIO DEL NAV*/
 }
@@ -64,6 +65,10 @@ nav li a:hover{
 
 .ver-mas .categoria{
     font-size: 20px;
+}
+
+.ver-mas p {
+    font-size: 50px;
 }
 
 .ver-mas a {
@@ -196,4 +201,8 @@ nav li a:hover{
 .mensajeria img:hover{
     transform: scale(1.1);
     transition: all 1s ease;
+}
+
+#a {
+    margin-bottom: 0px;
 }
